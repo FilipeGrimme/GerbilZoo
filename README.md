@@ -2,36 +2,19 @@ package GerbilLand;
 
 class GRex {
    
-  public void ()
+  public void Food()
   {
-      System.out.println("Hello," + DogOwnersName + ".  Welcome.");
+      System.out.println("G-Rex only eats tree bark");
      
   }
-  public void getName()
+  public void sound()
   {
-      System.out.println("I am " +Name);
+      System.out.println("Reeeeeee(Goose Noise)");
   }
-  public void setName(String myName)
+  
+  public void Speed()
   {
-      Name = myName;
-  }
-  public void Speak()
-  {
-      System.out.println("Hooowwwllll!");
-  }
-  public void Attack()
-  {
-      System.out.println("Grrrrr!!");
-  }
-  public void SayName()
-  {
-      System.out.println("I am " + Name);
-  }
-  public void SayGreeting()
-  {
-      Speak();
-      System.out.println("I am glad your back");
-      Speak();
+      System.out.println("Is extremely fast");
   }
   
 }
