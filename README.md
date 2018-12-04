@@ -1,20 +1,9 @@
-package GerbilLand;
+package gerbilland;
 
-class GRex {
-   
-  public void Food()
-  {
-      System.out.println("G-Rex only eats tree bark");
-     
-  }
-  public void sound()
-  {
-      System.out.println("Reeeeeee(Goose Noise)");
-  }
-  
-  public void Speed()
-  {
-      System.out.println("Is extremely fast");
-  }
-  
+/**
+ *
+ * @author fgrimme4319
+ */
+ public class GRaptor extends GRex {
+    
 }
